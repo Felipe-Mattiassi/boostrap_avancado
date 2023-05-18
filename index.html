@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bootstrap</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="principal">
+        <div class="navbar">
+            <div class="container-header">
+                <h1>EBAC Hotel</h1>
+                <nav >
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#carousel" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#principal">
+        <div id="carousel" class="carousel carousel-fade carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="https://tahititourisme.com.br/wp-content/uploads/2019/08/1920x500-intercon-bora-bora-thalasso.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://tahititourisme.com.br/wp-content/uploads/2019/08/1920x500-intercon-bora-bora-le-moana.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://wallpaperaccess.com/full/5650390.jpg">
+                </div>
+            </div>
+            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div id="servicos" class="container">
+            <main>
+                <h1 class="center">Pro que viajar conosco?</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 card-altura">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2023/05/13/17/43/water-7991010_1280.jpg" alt="">
+                        <div class="card-body">
+                            <div class="descricao">
+                                <h4 class="card-title">Experiências únicas</h4>
+                            <h5 class="card-subtitle">Passeios em cachoeiras</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maxime molestiae reprehenderit repellat deleniti excepturi aut illum tempore ad. Doloremque, accusantium. Saepe amet tenetur, sapiente neque veniam minima nobis odio.
+                            </p>
+                            </div>
+                            <a href="#nome" class="btn btn-primary">Nos contate agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 card-altura">
+                    <div class="card">
+                        <img src="https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg" alt="">
+                        <div class="card-body">
+                            <div class="descricao">
+                                <h4 class="card-title">Fauna rica</h4>
+                            <h5 class="card-subtitle">Aves endêmicas</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maxime molestiae reprehenderit repellat deleniti excepturi aut illum tempore ad. Doloremque, accusantium. Saepe amet tenetur, sapiente neque veniam minima nobis odio.
+                            </p>
+                            </div>
+                            <a href="#nome" class="btn btn-primary">Nos contate agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 card-altura">
+                    <div class="card">
+                        <img src="./imagens/massagem.jpg" alt="">
+                        <div class="card-body">
+                            <div class="descricao">
+                                    <h4 class="card-title">Profissionais extremamente bem preparados</h4>
+                                <h5 class="card-subtitle">Serviços</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti maxime molestiae reprehenderit repellat deleniti excepturi aut illum tempore ad. Doloremque, accusantium. Saepe amet tenetur, sapiente neque veniam minima nobis odio.
+                                </p>
+                            </div>
+                            <a href="#nome" class="btn btn-primary">Nos contate agora</a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            </div>
+        </div>
+        <footer class="footer">
+            <section>
+                <div id="contato" class="container">
+                    <h2 id="contato-contato">Contato</h2>
+                    <div id="fale-conosco" class="row">
+                        <div class="col-lg-7 col-md-6 col-sm-12 ">
+                            <h3>Fale conosco</h3>
+                            <form >
+                                <label class="form-label" for="nome">Seu nome:</label>
+                                <input class="form-control" id="nome" type="text">
+                                <label class="form-label" for="tel">Seu telefone:</label>
+                                <input class="form-control" id="tel" type="tel">
+                                <label class="form-label" for="email">Seu E-mail:</label>
+                                <input class="form-control" id="email" type="email">
+                                <button class="btn btn-success" type="button">
+                                    Enviar
+                                </button>
+                            </form>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <h3>Nos acompanhe</h3>
+                            <div id="img-contato">
+                                <a href="#" title="Siga no instagram">
+                                    <img src="./imagens/instagram.png" alt="icone instagram">
+                                </a>
+                                <a href="#" title="Siga no instagram">
+                                    <img src="./imagens/facebook.png" alt="">
+                                </a>
+                                <a href="#" title="Siga no instagram">
+                                    <img src="./imagens/youtube.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ebac-hotel">
+                        <hr> &copy; - Todos direitos reservados - EBAC Hotel 
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+    
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

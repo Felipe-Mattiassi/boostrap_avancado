@@ -1,0 +1,96 @@
+body { 
+    overflow-x: hidden; 
+}
+
+.principal {
+    background-color: #ffffff;
+    position: sticky;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid rgba(22, 21, 21, 0.562);
+    z-index: 2;
+    color: rgba(0, green, blue, alpha);
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.container-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10vw;
+    align-items: center;
+}
+
+main { 
+    margin-top: 7vh
+}
+
+#img-contato {
+    margin-top: 3vh;
+}
+
+#img-contato img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+#img-contato a {
+    text-decoration: none;
+}
+
+form {
+    margin-top: 3vh;
+}
+
+.form-control {
+    width: 80%;
+}
+
+#contato-contato {
+    margin: 0 0 3vh;
+    padding: 3vh;
+    border-bottom: 1px solid #fff;
+}
+
+.btn-success {
+    margin-top: 0.7vh;
+    width: 80%;
+    margin-bottom: 3vh;
+}
+
+.center {
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.card-altura {
+    min-height: 570px;
+    margin-bottom: 5vh;
+}
+
+.card{
+    height: 100%;
+}
+
+.descricao {
+    min-height: 34vh;
+}
+
+#fale-conosco {
+    padding-top: 5vh;
+}
+
+footer {
+    padding: 10vh 0;
+    background-color: rgb(2, 31, 3);
+    color: #ffffff;
+}
+
+.ebac-hotel {
+    text-align: center;
+    padding-top: 20vh;
+
+}
