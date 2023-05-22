@@ -8,7 +8,7 @@ body {
     left: 0;
     top: 0;
     border-bottom: 1px solid rgba(22, 21, 21, 0.562);
-    z-index: 2;
+    z-index: 3;
     color: rgba(0, green, blue, alpha);
 }
 
@@ -22,6 +22,15 @@ body {
     justify-content: space-between;
     margin: 0 10vw;
     align-items: center;
+    flex-wrap: inherit;
+}
+
+.nav-item .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
 }
 
 main { 
